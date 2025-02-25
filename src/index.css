@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(36, 36, 36);
+  color: white;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.10rem;
+}
+
+img{
+  width: 85%;
+  height: 85%;
+}
+
+button{
+  padding: 12px 24px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin: 8px;
+  width: calc(25% - 10px);
+}
+
+button:hover{
+  border-color: #646cff;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
